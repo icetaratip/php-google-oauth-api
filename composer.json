@@ -1,0 +1,13 @@
+{
+    "name": "google-login/app",
+    "description": "Google Login System in PHP using OOP PDO MVC & JWT",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

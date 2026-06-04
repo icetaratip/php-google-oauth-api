@@ -1,0 +1,18 @@
+# Environment configurations
+.env
+
+# Composer dependencies
+/vendor/
+
+# Storage logs and cache (keep directory placeholders)
+/storage/logs/*.log
+/storage/cache/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+
+# OS and IDE configuration files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
